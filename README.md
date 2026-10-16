@@ -25,10 +25,10 @@ at the top of each notebook.
 ## Repository structure
 
 ```
-├── Classification.ipynb   # Task 2: churn prediction
-├── Regression.ipynb       # Task 3: lifetime value forecasting
-├── Clustering.ipynb       # Task 4: customer segmentation
-├── report/                # Written report [add if you include it]
+├── Classification.ipynb                       # Task 2: churn prediction
+├── Regression.ipynb                           # Task 3: lifetime value forecasting
+├── Clustering.ipynb                           # Task 4: customer segmentation
+├── ecommerce_customer_churn_dataset.csv       # Dataset
 └── README.md
 ```
 
@@ -105,16 +105,9 @@ surfaced this group.
 ## Known limitations
 
 - The 25-row `Average_Order_Value` correction is applied in the Classification and Clustering notebooks.
-  **[Edit this line to match your final Regression notebook.]** If it is not applied there, the
-  linear-family results (R² ≈ 0.50) are affected by those rows, and the notebook notes this.
+  If it is not applied there, the linear-family results (R² ≈ 0.50) are affected by those rows, and the notebook notes this.
 - Some tuning comparisons also looked at test-set scores. In each case the choice rests on
   cross-validation, as documented in the notebooks.
-
-## How to run
-
-1. Open a notebook in Google Colab (the notebooks were developed on the free tier).
-2. Upload the dataset to Google Drive and set the `dataset` path in the loading cell.
-3. Run all cells top to bottom.
 
 ## Tech stack
 
